@@ -1,6 +1,9 @@
 # Freecodecamp My exercise code
+
+# Why did I open this Repository 
 Here i'll be posting my answer to @Freecodecamp Basic JavaScript Test
-.
+
+# About me 
 my name is Ziane Maamar and I am a 26 year old self-taught Web and Graphics Designer and now im learning to be a webdevloper
 
 # My Social Media
