@@ -1,0 +1,104 @@
+body{
+    background: #141D26;
+}
+.container {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  padding: 20px;
+  margin:20px auto;
+  color: #121212;
+  background: #efefef;
+  border-radius: 8px;
+  max-width: 700px;
+}
+
+#title {
+  font-size:50px;
+  text-align: center;
+}
+
+#description {
+    font-size:25px;
+  top: 8px ;
+  text-align: center;
+}
+
+.survey-form {
+  margin-top: 1rem;
+}
+
+.form-item {
+  margin-bottom: 1.5rem;
+}
+
+.basic-info {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.basic-info .form-item {
+  margin-right: 10px;
+}
+
+.basic-info label,
+.form-item > label {
+  font-weight: bold;
+}
+
+.improvement label {
+  font-weight: normal;
+}
+
+input:not([type="checkbox"]):not([type="radio"]) {
+  border-radius: 3px;
+  height: 36px;
+  padding: 0 5px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  width: 100%;
+  background: transparent;
+  box-shadow: inset 0px 0px 3px rgba(0,0,0,0.1);
+}
+
+select {
+  height: 36px;
+  border-radius: 3px;
+  margin-top: 5px;
+  display: block;
+  width: 100%;
+  border-color: #ccc;
+  box-shadow: 1px 1px 3px #ccc;
+  background: transparent;
+  color: #636363;
+}
+
+select option {
+  color: #636363;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-top: 5px;
+}
+
+.improvement {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+textarea {
+  display: block;
+  width: 99%;
+  margin-top: 5px;
+  background: transparent;
+  box-shadow: inset 0px 0px 3px rgba(0,0,0,0.1);
+  padding: 5px;
+}
+
+textarea::placeholder {
+  font-family: Arial, sans-serif;
+}
+
